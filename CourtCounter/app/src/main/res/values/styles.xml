@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#FF9800</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#FF9800</item>
+    </style>
+
+    <style name="Teams_TextView">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/fonts_normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Scores_TextView">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/fonts_larger</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+
+</resources>

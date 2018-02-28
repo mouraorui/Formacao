@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ContentText_birthday" >
+        <item name="android:textSize">@dimen/fonts_larger</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ContentText_from" >
+        <item name="android:textSize">@dimen/fonts_large</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
