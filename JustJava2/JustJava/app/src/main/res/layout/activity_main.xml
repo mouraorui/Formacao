@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.example.e5757.justjava.MainActivity">
+
+        <EditText
+            android:id="@+id/nome_editext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/name_edittext"
+            android:inputType="textMultiLine" />
+
+
+        <TextView
+            style="@style/ContentText_textView"
+            android:text="@string/extra_textView" />
+
+        <CheckBox
+            style="@style/ContentText_checkbox"
+            android:id="@+id/whiped_cream_checkbox"
+            android:text="@string/whipedCream_checkbox"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            style="@style/ContentText_checkbox"
+            android:id="@+id/chocolate_checkbox"
+            android:text="@string/chocolate_checkbox"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            style="@style/ContentText_textView"
+            android:text="@string/quantity" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/decriment_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/min_button" />
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+                style="@style/ContentText_quantityNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" />
+
+            <Button
+                android:id="@+id/increment_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="@string/plus_button" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/order_button" />
+
+
+    </LinearLayout>
+
+</ScrollView>
